@@ -6,5 +6,20 @@ body {
 .header {
     height: 72px;
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 8px 128px;
 }
 
+.header-logo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
