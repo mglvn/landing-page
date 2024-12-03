@@ -1,0 +1,10 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.header {
+    height: 72px;
+    background-color: #1f2937;
+}
+
