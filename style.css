@@ -9,17 +9,54 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
     padding: 8px 128px;
 }
 
 .header-logo {
-    font-size: 36px;
+    color: #F9FAF8;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .nav-link {
-    color: white;
+    color: #e5e7eb;
+    font-size: 18px;
     text-decoration: none;
     margin: 8px;
+}
+
+.hero {
+    background-color:#1f2937;
+    display: flex;
+    padding: 0 128px;
+    justify-content: space-between;
+
+}
+
+.hero-content {
+    margin: 0;
+}
+
+.hero-content h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-content p {
+    color: #e5e7eb;
+}
+
+.hero-button {
+    padding: 6px 24px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.hero-image {
+    background-color: grey;
+    height: 200px;
+    width: 400px;
 }
