@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
@@ -9,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 128px;
+    padding: 0 128px;
 }
 
 .header-logo {
@@ -28,23 +32,24 @@ body {
 .hero {
     background-color:#1f2937;
     display: flex;
-    padding: 0 128px;
+    padding: 72px 10%;
     justify-content: space-between;
-
 }
 
 .hero-content {
-    margin: 0;
+    margin-right: 24px;
+    max-width: 50%;
 }
 
-.hero-content h1 {
+.hero-title {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
 }
 
-.hero-content p {
+.hero-text {
     color: #e5e7eb;
+    margin-bottom: 16px;
 }
 
 .hero-button {
@@ -56,7 +61,16 @@ body {
 }
 
 .hero-image {
-    background-color: grey;
+    background-color: gray;
     height: 200px;
     width: 400px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-image p {
+    text-align: center;
 }
