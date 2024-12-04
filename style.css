@@ -74,3 +74,32 @@ body {
 .hero-image p {
     text-align: center;
 }
+
+.information {
+    padding: 48px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+
+}
+
+.grid-item {
+    width: 150px;
+    margin: 12px;
+    text-align: center;
+    color: #1f2937;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 8px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
