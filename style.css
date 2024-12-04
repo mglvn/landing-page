@@ -52,7 +52,7 @@ body {
     margin-bottom: 16px;
 }
 
-.hero-button {
+.hero-button, .cta-button {
     padding: 6px 24px;
     color: #F9FAF8;
     background-color: #3882f6;
@@ -119,3 +119,26 @@ body {
     text-align: right;
     font-weight: bolder;
 }
+
+.cta {
+    background-color: #3882f6;
+    margin: 72px 10%;
+    padding: 24px 72px;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;    
+    border-radius: 8px;;
+}
+
+.cta-title {
+    font-weight: bolder;
+}
+
+.cta-text {
+    font-weight: lighter;
+}
+
+.cta-button {
+    border: 2px solid #F9FAF8;
+}
+
